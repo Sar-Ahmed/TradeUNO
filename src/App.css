@@ -36,11 +36,11 @@
 
 .rfq-button-container {
   padding: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
 }
 
 .rfq-button {
     box-sizing: border-box;
-    background: #02838B;
     border: 1px solid #D4D6DE;
     border-radius: 5px;
     width: 100%;
@@ -142,3 +142,51 @@ line-height: 21px;
     line-height: 15px;
     display: flex;
 }
+
+.quotes-header {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+}
+
+.input-label {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 17px;
+color: #565656;
+
+}
+
+.input-box {
+  box-sizing: border-box;
+  position: absolute;
+  background: #FFFFFF;
+  border: 1px solid #CFCFCF;
+  border-radius: 5px;
+}
+
+.details-header {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 19px;
+align-items: center;
+color: #C7771D;
+}
+
+.block {
+  display: block;
+}
+
+.mt-15 {
+  margin-top: 15%;
+}
+
+

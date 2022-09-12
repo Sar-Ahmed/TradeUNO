@@ -15,12 +15,15 @@ const Home = () => {
         </div>
       </div>
       <div className="rfq-button-container">
-        <button 
-        className="rfq-button"
-        onClick={() => {
-          alert("Clicked")
-        }}
-        >Add RFQ</button>
+        <button
+          style={{ background: "#02838B" }}
+          className="rfq-button"
+          onClick={() => {
+            alert("Clicked");
+          }}
+        >
+          Add RFQ
+        </button>
       </div>
 
       <div className="nav-container">
@@ -29,10 +32,10 @@ const Home = () => {
       </div>
 
       <div className="search-button">
-     <input className="search-input" type="text" placeholder="Search" />
+        <input className="search-input" type="text" placeholder="Search" />
       </div>
-      <div className="product-details-container"> 
-        <div className="product-details"> 
+      <div className="product-details-container">
+        <div className="product-details">
           <p className="details-text ">#14</p>
           <p className="details-text product-date ">Date</p>
           <p className="enquiry-container product-enquiry">Enquiry raised</p>
